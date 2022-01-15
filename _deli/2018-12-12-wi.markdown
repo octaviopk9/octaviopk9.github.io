@@ -1,0 +1,10 @@
+---
+layout: post
+year: 2018
+title:  "When Blockchain Meets the Right to Be Forgotten: Technology versus Law in the Healthcare Industry"
+authors: Aurelie Bayle, Mirko Koscina, David Manset, Octavio Perez Kempner
+venue: IEEE/WIC/ACM International Conference on Web Intelligence (WI-2018)
+pub: https://doi.org/10.1109/WI.2018.00133
+bib: https://dblp.org/rec/conf/webi/BayleKMP18.html?view=bibtex
+---
+

@@ -1,0 +1,10 @@
+---
+layout: post
+year: 2020
+title:  "D5.2: Blockchain Release"
+authors: Danae Andriopoulou, Aurélie Bayle, Rodrigo Diaz, Gustavo Gonzalez-Granadillo, Zenzi De Graeve, Marius Lombard-Platet, Sofiana Menesidou, Juan Mora, Diana Navarro, Claudia Negri, Sokratis Nifakos, Caxton Okoh, Manos Panaousis, Nikos Panourakis, Panos Papachristou, Dimitris Papamartzivanos, Octavio Perez Kempner, Eleni Trouva, Niels Vandezande
+venue: CUREX
+pdf: publications/deli/d4-4.pdf
+web: http://curex-project.eu/
+---
+

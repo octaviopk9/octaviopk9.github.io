@@ -1,0 +1,24 @@
+==================================================================
+https://keybase.io/octaviopk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://octavio.pk
+  * I am octaviopk (https://keybase.io/octaviopk) on keybase.
+  * I have a public key TBA
+
+To do so, I am signing this object:
+
+TBA
+
+which yields the signature:
+
+TBA
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/octaviopk
+
+==================================================================

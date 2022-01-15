@@ -1,0 +1,38 @@
+# Site metadata
+keywords: Cryptography, Privacy, Digital Signatures, Security
+
+description: Homepage of Octavio Perez Kempner
+title: Homepage of Octavio Perez Kempner
+
+author: Octavio Perez Kempner
+authorimg: images/opk6.jpg
+authoroccup: PhD student in Cryptography
+
+uni: École Normale Supérieure de Paris
+uniurl: https://securite.di.ens.fr/
+
+twitter: octaviopk
+orcid: 0000-0002-3377-9802
+linkedin: octavio-perez-kempner-58990015
+dblp: /p/Perez=Kempner:Octavio
+scholar: F8zSuhoAAAAJ
+keybase: octaviopk
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+collections:
+  - preprints
+  - proc
+  - articles
+  - articlesworeview
+  - books
+  - theses
+  - deli
+include:
+  - keybase.txt
+exclude:
+  - Gemfile
+  - Gemfile.lock
