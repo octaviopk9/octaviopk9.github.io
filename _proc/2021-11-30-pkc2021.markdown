@@ -3,11 +3,11 @@ layout: post
 year: 2022
 title: "Improved Constructions of Anonymous Credentials From Structure-Preserving Signatures on Equivalence Classes"
 authors: Aisling Connolly, Pascal Lafourcade, Octavio Perez Kempner
-venue: "25th International Conference on Practice and Theory of Public-Key Cryptography - PKC 2022 (accepted)"
+venue: "25th International Conference on Practice and Theory of Public-Key Cryptography - PKC 2022"
 pdf: https://eprint.iacr.org/2021/1680
 web: https://pkc.iacr.org/2022/
-bib: 
+bib: https://dblp.org/rec/conf/pkc/Connolly0P22.html?view=bibtex
 github: 
-talk: 
-pub: 
+talk: publications/talks/slidesPKC2022.pdf
+pub: https://doi.org/10.1007/978-3-030-97121-2_15
 ---
