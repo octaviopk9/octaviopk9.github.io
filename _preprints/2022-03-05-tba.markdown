@@ -1,0 +1,13 @@
+---
+layout: post
+year: 2022
+title: "Protego: A Credential Scheme for Permissioned Blockchains (Extended Version)"
+authors: Aisling Connolly, Jerome Deschamps, Pascal Lafourcade, Octavio Perez Kempner
+venue: IACR Cryptology ePrint Archive Report 2022/661
+pdf: https://eprint.iacr.org/2022/661.pdf
+web: https://eprint.iacr.org
+bib: 
+github: 
+talk: 
+pub: 
+---
