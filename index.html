@@ -1,15 +1,29 @@
---- 
+---
 layout: default
---- 
+---
 
 <b>PUBLICATIONS</b><br>
-<p>Below you can find a list of my publications, all of them become available at some point in open
-access format on the <a href="https://eprint.iacr.org/" target="_blank">ePrint</a> archive. Authors are listed
-alphabetically by last name.
-</p> 
+<p>Below you can find a list of my publications, all of them become available at
+  some point in open
+  access format on the <a href="https://eprint.iacr.org/"
+    target="_blank">ePrint</a> archive. Authors are listed
+  alphabetically by last name.
+</p>
 
-<p><span class="downloadpdf"><a href="#publications"><i class="fa fa-file-pdf-o"></i></a>&nbsp;&nbsp;Full Version&nbsp;&nbsp;</span><span class="download"><a href="#publications"><i class="fa fa-book"></i></a>&nbsp;&nbsp;Publisher Version&nbsp;&nbsp;</span><span class="downloadpdf"><a href="#publications"><i class="fa fa-television"></i></a>&nbsp;&nbsp;Slides&nbsp;&nbsp;</span><span class="download"><a href="#publications"><i class="fa fa-globe"></i></a>&nbsp;&nbsp;Web&nbsp;&nbsp;<a href="#publications"><i class="fa fa-link"></i></a>&nbsp;&nbsp;Bibtex&nbsp;&nbsp;<a href="#publications"><i class="fa fa-code"></i></a>&nbsp;&nbsp;Additional Material</span></p> 
-
+<p><span class="downloadpdf"><a href="#publications"><i
+        class="fa fa-file-pdf-o"></i></a>&nbsp;&nbsp;Full
+    Version&nbsp;&nbsp;</span><span class="download"><a href="#publications"><i
+        class="fa fa-book"></i></a>&nbsp;&nbsp;Publisher
+    Version&nbsp;&nbsp;</span><span class="downloadpdf"><a
+      href="#publications"><i
+        class="fa fa-television"></i></a>&nbsp;&nbsp;Slides&nbsp;&nbsp;</span><span
+    class="download"><a href="#publications"><i
+        class="fa fa-globe"></i></a>&nbsp;&nbsp;Web&nbsp;&nbsp;<a
+      href="#publications"><i
+        class="fa fa-link"></i></a>&nbsp;&nbsp;Bibtex&nbsp;&nbsp;<a
+      href="#publications"><i class="fa fa-code"></i></a>&nbsp;&nbsp;Additional
+    Material</span></p>
+<!--
 <table class="pubtable">
 
 <thead>
@@ -23,20 +37,23 @@ alphabetically by last name.
 {% endfor %}
         
 </table>
-
+</table>
+-->
 
 <table class="pubtable">
 
-<thead>
-  <tr><th colspan="3" >Conference Papers</th></tr>
-</thead>
+  <thead>
+    <tr>
+      <th colspan="3">Conference Papers</th>
+    </tr>
+  </thead>
 
-{% for post in site.proc reversed %}
+  {% for post in site.proc reversed %}
 
-{% include pubentry.html %}
+  {% include pubentry.html %}
 
-{% endfor %}
-        
+  {% endfor %}
+
 </table>
 
 <!--
@@ -105,16 +122,18 @@ alphabetically by last name.
 
 <table class="pubtable">
 
-<thead>
-  <tr><th colspan="3" >Selected Project Deliverables & Articles</th></tr>
-</thead>
+  <thead>
+    <tr>
+      <th colspan="3">Selected Project Deliverables & Articles</th>
+    </tr>
+  </thead>
 
-{% for post in site.deli reversed %}
+  {% for post in site.deli reversed %}
 
-{% include pubentry.html %}
+  {% include pubentry.html %}
 
-{% endfor %}
-        
+  {% endfor %}
+
 </table>
 
 <b>USEFUL RESOURCES</b>
@@ -134,7 +153,8 @@ alphabetically by last name.
         target="_blank">Course on Introduction to NIZKs</a> (Mihir Bellare - UC
       San Diego - 2020)</li>
     <li><a href="https://github.com/ingonyama-zk/ingopedia"
-        target="_blank">Ingopedia: multiple links and references related to Zero-Knowledge Proofs</a> (Multiple contributors - Github - 2022)</li>
+        target="_blank">Ingopedia: multiple links and references related to
+        Zero-Knowledge Proofs</a> (Multiple contributors - Github - 2022)</li>
   </ul>
   <li>Other learning material on other topics in Cryptography</li>
   <ul style="list-style-type:square">
@@ -155,9 +175,9 @@ alphabetically by last name.
   </ul>
   <li>Learning material on other topics in Computer Science</li>
   <ul style="list-style-type:square">
-    <li> <a href="http://timroughgarden.org/f13/f13.html" target="_blank">Course on Algorithmic Game Theory</a> (Tim Roughgarden - Stanford - 2013)
+    <li> <a href="http://timroughgarden.org/f13/f13.html"
+        target="_blank">Course on Algorithmic Game Theory</a> (Tim Roughgarden -
+      Stanford - 2013)
     </li>
   </ul>
 </ul>
-        
-
