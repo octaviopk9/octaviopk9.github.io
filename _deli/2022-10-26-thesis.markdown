@@ -1,0 +1,14 @@
+---
+layout: post
+year: 2022
+title:  "Malleable Cryptography: Advances and Applications to Privacy-enhancing Technologies"
+authors: Octavio Pérez Kempner
+venue: École Normale Supérieure - Paris Sciences & Lettres
+pdf: publications/PhD_thesis_OPK_defence_version.pdf
+web: /soutenance.html
+bib: 
+github: 
+talk: publications/talks/slidesPhdThesis_without_pause_ratio_4_3.pdf
+pub: 
+---
+
