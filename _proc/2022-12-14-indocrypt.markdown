@@ -7,7 +7,7 @@ venue: "23rd International Conference on Cryptology in India - INDOCRYPT 2022"
 pdf: https://eprint.iacr.org/2022/661.pdf
 web: https://www.tcgcrest.org/indocrypt-2022/
 bib: 
-github: 
+github: https://github.com/octaviopk9/indocrypt_protego
 talk: 
 pub: 
 ---
