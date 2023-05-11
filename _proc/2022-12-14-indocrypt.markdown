@@ -6,8 +6,8 @@ authors: Aisling Connolly, Jerome Deschamps, Pascal Lafourcade, Octavio Perez Ke
 venue: "23rd International Conference on Cryptology in India - INDOCRYPT 2022"
 pdf: https://eprint.iacr.org/2022/661.pdf
 web: https://www.tcgcrest.org/indocrypt-2022/
-bib: 
+bib: https://dblp.org/rec/conf/indocrypt/ConnollyDLP22.html?view=bibtex
 github: https://github.com/octaviopk9/indocrypt_protego
 talk: 
-pub: 
+pub: https://doi.org/10.1007/978-3-031-22912-1_11
 ---
