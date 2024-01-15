@@ -1,0 +1,13 @@
+---
+layout: post
+year: 2024
+title: "SoK: Signature With Randomizable Keys"
+authors: Sofía Celi, Scott Griffy, Lucjan Hanzlik, Octavio Perez Kempner, Daniel Slamanig
+venue: "28th International Conference on Financial Cryptography and Data Security - FC 2024"
+pdf: https://eprint.iacr.org/2023/1524.pdf
+web: https://fc24.ifca.ai
+bib: 
+github: 
+talk: 
+pub: 
+---
