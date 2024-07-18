@@ -6,9 +6,9 @@ authors: Octavio Pérez Kempner
 venue: École Normale Supérieure - Université Paris Sciences et Lettres
 pdf: https://theses.hal.science/tel-04637364
 web: https://theses.fr/2022UPSLE056
-bib: https://theses.hal.science/tel-04637364v1/bibtex
+bib: 
 github: 
 talk: publications/talks/slidesPhdThesis_without_pause_ratio_4_3.pdf
-pub: 
+pub: https://theses.hal.science/tel-04637364v1/bibtex
 ---
 
