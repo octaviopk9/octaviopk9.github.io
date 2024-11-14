@@ -3,7 +3,7 @@ layout: post
 year: 2024
 title: "Interactive Threshold Mercurial Signatures and Applications"
 authors: Masayuki Abe, Masaya Nanri, Octavio Perez Kempner, Mehdi Tibouchi
-venue: "30th Annual International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT 2024 (accepted)"
+venue: "30th Annual International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT 2024"
 pdf: https://eprint.iacr.org/2024/625.pdf
 web: https://eprint.iacr.org/2024/625
 bib: 

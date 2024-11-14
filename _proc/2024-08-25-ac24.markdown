@@ -3,7 +3,7 @@ layout: post
 year: 2024
 title: "Delegatable Anonymous Credentials From Mercurial Signatures With Stronger Privacy"
 authors: Scott Griffy, Anna Lysyanskaya, Omid Mir, Octavio Perez Kempner, Daniel Slamanig
-venue: "30th Annual International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT 2024 (accepted)"
+venue: "30th Annual International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT 2024"
 pdf: http://eprint.iacr.org/2024/1216.pdf
 web: http://eprint.iacr.org/2024/1216
 bib: 
