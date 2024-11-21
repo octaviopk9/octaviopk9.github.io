@@ -148,6 +148,9 @@ th {
 }
 
 header {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 240px;
   float: left;
   position: fixed;
@@ -332,14 +335,15 @@ screen and (max-width: 480px) {
 
 .circular--square {
   width: 80%;
-  height: 60%;
+  height: 80%;
   object-fit: contain;
+  /*
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
 
-  /* change the opacity of the image 
+   change the opacity of the image 
   -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 
   filter: grayscale(50%);
   */
