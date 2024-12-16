@@ -2,3 +2,4 @@ _site/publications
 .sass-cache
 .DS_Store
 images/.DS_Store
+_site/images
