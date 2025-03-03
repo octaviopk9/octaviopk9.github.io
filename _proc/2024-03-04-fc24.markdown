@@ -6,8 +6,8 @@ authors: Sofía Celi, Scott Griffy, Lucjan Hanzlik, Octavio Perez Kempner, Danie
 venue: "28th International Conference on Financial Cryptography and Data Security - FC 2024"
 pdf: https://eprint.iacr.org/2023/1524.pdf
 web: https://fc24.ifca.ai
-bib: 
+bib: https://citation-needed.springer.com/v2/references/10.1007/978-3-031-78679-2_9?format=bibtex&flavour=citation
 github: 
 talk: 
-pub: 
+pub: https://doi.org/10.1007/978-3-031-78679-2_9
 ---
