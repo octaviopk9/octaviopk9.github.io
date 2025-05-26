@@ -6,8 +6,8 @@ authors: Calvin Abou Haidar, Dipayan Das, Anja Lehmann, Cavit Özbay, Octavio Pe
 venue: "28th International Conference on Practice and Theory of Public-Key Cryptography - PKC 2025"
 pdf: https://eprint.iacr.org/2025/335.pdf
 web: https://pkc.iacr.org/2025/
-bib: 
+bib: https://dblp.org/rec/conf/pkc/HaidarDLOP25.html?view=bibtex
 github: 
-talk: 
-pub: 
+talk: https://iacr.org/submit/files/slides/2025/pkc/pkc2025/69/69_slides.pptx
+pub: https://doi.org/10.1007/978-3-031-91823-0_3
 ---

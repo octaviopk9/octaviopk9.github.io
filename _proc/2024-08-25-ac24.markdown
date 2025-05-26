@@ -6,7 +6,7 @@ authors: Scott Griffy, Anna Lysyanskaya, Omid Mir, Octavio Perez Kempner, Daniel
 venue: "30th Annual International Conference on the Theory and Application of Cryptology and Information Security - ASIACRYPT 2024"
 pdf: http://eprint.iacr.org/2024/1216.pdf
 web: https://asiacrypt.iacr.org/2024
-bib: https://doi.org/10.1007/978-981-96-0888-1_10
+bib: https://dblp.org/rec/conf/asiacrypt/GriffyLMPS24.html?view=bibtex
 github: 
 talk: https://iacr.org/submit/files/slides/2024/asiacrypt/asiacrypt2024/88/88_slides.pdf
 pub: https://doi.org/10.1007/978-981-96-0888-1_10
