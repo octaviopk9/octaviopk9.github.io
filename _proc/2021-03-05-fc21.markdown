@@ -2,7 +2,7 @@
 layout: post
 year: 2021
 title: "Generic Plaintext Equality and Inequality Proofs"
-authors: Olivier Blazy, Xavier Bultel, Pascal Lafourcade, Octavio Perez Kempner
+authors: Joint work with Olivier Blazy, Xavier Bultel and Pascal Lafourcade
 venue: "25th International Conference on Financial Cryptography and Data Security - FC 2021"
 pdf: https://eprint.iacr.org/2021/426.pdf
 web: http://fc21.ifca.ai

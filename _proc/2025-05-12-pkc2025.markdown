@@ -2,7 +2,7 @@
 layout: post
 year: 2025
 title: "Privacy-Preserving Multi-Signatures: Generic Techniques and Constructions Without Pairings"
-authors: Calvin Abou Haidar, Dipayan Das, Anja Lehmann, Cavit Özbay, Octavio Perez Kempner
+authors: Joint work with Calvin Abou Haidar, Dipayan Das, Anja Lehmann and Cavit Özbay
 venue: "28th International Conference on Practice and Theory of Public-Key Cryptography - PKC 2025"
 pdf: https://eprint.iacr.org/2025/335.pdf
 web: https://pkc.iacr.org/2025/
