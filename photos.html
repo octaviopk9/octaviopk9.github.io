@@ -9,7 +9,6 @@
         content="Octavio Pérez Kempner, Cryptography, Privacy, Digital Signatures, Security" />
     <meta name="Description"
         content="Homepage of Octavio Pérez Kempner" />
-
     <title>Homepage of Octavio Pérez Kempner</title>
 
     <link rel="stylesheet"
@@ -21,39 +20,77 @@
     <link rel="stylesheet"
         href="../academicons/css/academicons.min.css" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Titillium Web">
+        href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.1/dist/simple-lightbox.min.css">
     <meta name="viewport"
         content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-</head>
 
+    <style>
+        /* Optional local overrides */
+        .photos {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+            background-color: #eee;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .photos:hover {
+            transform: scale(1.02);
+        }
+
+        .photo-desc {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+
+        .desc {
+            display: block;
+            margin-top: 0.5em;
+            font-style: italic;
+            color: #666;
+        }
+
+        .photo-footer {
+            text-align: center;
+            margin-top: 3em;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
 
 <body>
     <div class="wrapper">
         <header>
             <img class="circular--square"
                 src="images/IMG_2509.JPG"
-                alt="Octavio Perez-Kempner" />
+                alt="Octavio Perez-Kempner"
+                loading="lazy"
+                decoding="async" />
             <h1>Octavio Perez-Kempner</h1>
             <p class="occup">Research Engineer</p>
             <p class="affil"><a href="https://www.rd.ntt/e/sil/"
-                    target="_blank">NTT Social Informatics Laboratories</a></p>
+                    target="_blank">NTT Social Informatics Laboratories</a>
+            </p>
             <ul class="extlinks">
                 <li><a href="https://twitter.com/octaviopk"
                         title="Twitter"
-                        target="_blank"><i class="fa fa-twitter""></i></a></li>
-                        <li><a href="
-                            https://bsky.app/{{site.bluesky}}"
-                            title="Bluesky"
-                            target="_blank"><img
-                                src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
-                                alt="Bluesky"
-                                width="13"
-                                height="12"></a></li>
-                <li><a href="
-                            https://orcid.org/0000-0002-3377-9802"
+                        target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://bsky.app/{{site.bluesky}}"
+                        title="Bluesky"
+                        target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
+                            alt="Bluesky"
+                            width="13"
+                            height="12">
+                    </a></li>
+                <li><a href="https://orcid.org/0000-0002-3377-9802"
                         title="ORCID"
                         target="_blank"><i class="ai ai-orcid ai-lg"></i></a>
                 </li>
@@ -62,8 +99,7 @@
                         target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://dblp.uni-trier.de/pers//p/Perez=Kempner:Octavio"
                         title="DBLP"
-                        target="_blank"><i class="fa fa-book"></i></a>
-                </li>
+                        target="_blank"><i class="fa fa-book"></i></a></li>
                 <li><a href="https://scholar.google.com/citations?user=F8zSuhoAAAAJ&hl=en"
                         title="Google scholar"
                         target="_blank"><i
@@ -71,130 +107,256 @@
                 <li><a href="https://keybase.io/octaviopk"
                         title="Keybase"
                         target="_blank"><i class="fa fa-key"></i></a></li>
-                <li><a href="mailto:octavio.perez.kempner@ens.fr"
+                <li><a href="mailto:octavio.perezkempner@ntt.com"
                         title="mail"><i class="fa fa-envelope"
                             aria-hidden="true"></i></a></li>
             </ul>
         </header>
 
         <section>
-
             <h2>Photos</h2>
 
-            <p style="text-align:justify;">I am a very amateur photography
-                enthusiast. The photos below are some of my favorites, taken
-                with a Canon AE-1. They are copyrighted, and I kindly ask that
-                you request permission before using them for any commercial
-                purposes. Thank you.
+            <p style="text-align:justify;">
+                I am a very amateur photography enthusiast. The photos below are
+                some of my favorites,
+                taken with a Canon AE-1. They are copyrighted, and I kindly ask
+                that you request permission
+                before using them for any commercial purposes. Thank you.
             </p>
 
-            <section class="photo-desc">
-                <img src="images/B_15650012.JPG"
-                    alt="Ueno's Ameyoko Market from distance."
-                    class="photos">
-                <desc>Ueno's Ameyoko Market from distance. Tokyo, Japan.</desc>
-            </section>
+            <!-- Photos -->
+            <div class="gallery">
 
-            <section class="photo-desc">
-                <img src="images/v_matsuri_1.JPG"
-                    alt="Omotesando Matsuri"
-                    class="photos">
-                <desc>Omotesando Matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/B_15650012.JPG"
+                        title="Ueno's Ameyoko Market from distance. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/B_15650012_600.webp 600w, images/B_15650012_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/B_15650012.JPG"
+                                alt="Ueno's Ameyoko Market from distance."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Ueno's Ameyoko Market from distance. Tokyo,
+                        Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_3.JPG"
-                    alt="Omotesando matsuri."
-                    class="photos">
-                <desc>Omotesando matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/v_matsuri_1.JPG"
+                        title="Omotesando Matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/v_matsuri_1_600.webp 600w, images/v_matsuri_1_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/v_matsuri_1.JPG"
+                                alt="Omotesando Matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Omotesando Matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_1.JPG"
-                    alt="Fushimi Inari-Taisha."
-                    class="photos">
-                <desc>Omotesando matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_3.JPG"
+                        title="Omotesando Matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_3_600.webp 600w, images/h_matsuri_3_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_3.JPG"
+                                alt="Omotesando matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Omotesando matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_4.JPG"
-                    alt="Roppongi matsuri."
-                    class="photos">
-                <desc>Roppongi matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_1.JPG"
+                        title="Omotesando Matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_1_600.webp 600w, images/h_matsuri_1_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_1.JPG"
+                                alt="Omotesando matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Omotesando matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_5.JPG"
-                    alt="Koenji matsuri."
-                    class="photos">
-                <desc>Koenji matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_4.JPG"
+                        title="Roppongi matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_4_600.webp 600w, images/h_matsuri_4_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_4.JPG"
+                                alt="Roppongi matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Roppongi matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_6.JPG"
-                    alt="Koenji matsuri."
-                    class="photos">
-                <desc>Koenji matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_5.JPG"
+                        title="Koenji matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_5_600.webp 600w, images/h_matsuri_5_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_5.JPG"
+                                alt="Koenji matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Koenji matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_matsuri_7.JPG"
-                    alt="Koenji matsuri."
-                    class="photos">
-                <desc>Koenji matsuri. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_6.JPG"
+                        title="Koenji matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_6_600.webp 600w, images/h_matsuri_6_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_6.JPG"
+                                alt="Koenji matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Koenji matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/v_tokyo_3.JPG"
-                    alt="Kabukicho."
-                    class="photos">
-                <desc>Kabukicho. Tokyo, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_matsuri_7.JPG"
+                        title="Koenji matsuri. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_matsuri_7_600.webp 600w, images/h_matsuri_7_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_matsuri_7.JPG"
+                                alt="Koenji matsuri."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Koenji matsuri. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_kyoto_1.JPG"
-                    alt="A street in Kyoto at night."
-                    class="photos">
-                <desc>A street in Kyoto at night. Kyoto, Japan.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/v_tokyo_3.JPG"
+                        title="Kabukicho. Tokyo, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/v_tokyo_3_600.webp 600w, images/v_tokyo_3_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/v_tokyo_3.JPG"
+                                alt="Kabukicho."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Kabukicho. Tokyo, Japan.</p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_seoul_1.JPG"
-                    alt="Gwangjang Market."
-                    class="photos">
-                <desc>Gwangjang Market. Seoul, South Korea.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_kyoto_1.JPG"
+                        title="A street in Kyoto at night. Kyoto, Japan.">
+                        <picture>
+                            <source
+                                srcset="images/h_kyoto_1_600.webp 600w, images/h_kyoto_1_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_kyoto_1.JPG"
+                                alt="A street in Kyoto at night."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">A street in Kyoto at night. Kyoto, Japan.
+                    </p>
+                </section>
 
-            <section class="photo-desc">
-                <img src="images/h_seoul_2.JPG"
-                    alt="Gwangjang Market."
-                    class="photos">
-                <desc>Gwangjang Market. Seoul, South Korea.</desc>
-            </section>
+                <section class="photo-desc">
+                    <a href="images/h_seoul_1.JPG"
+                        title="Gwangjang Market. Seoul, South Korea.">
+                        <picture>
+                            <source
+                                srcset="images/h_seoul_1_600.webp 600w, images/h_seoul_1_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_seoul_1.JPG"
+                                alt="Gwangjang Market."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Gwangjang Market. Seoul, South Korea.</p>
+                </section>
 
-            <photo-footer>
-                <p>&copy; 2024 Octavio Pérez Kempner. All rights reserved.</p>
-            </photo-footer>
+                <section class="photo-desc">
+                    <a href="images/h_seoul_2.JPG"
+                        title="Gwangjang Market. Seoul, South Korea.">
+                        <picture>
+                            <source
+                                srcset="images/h_seoul_2_600.webp 600w, images/h_seoul_2_1200.webp 1200w"
+                                type="image/webp">
+                            <img src="images/h_seoul_2.JPG"
+                                alt="Gwangjang Market."
+                                class="photos"
+                                loading="lazy"
+                                decoding="async">
+                        </picture>
+                    </a>
+                    <p class="desc">Gwangjang Market. Seoul, South Korea.</p>
+                </section>
 
-            Click <a href="/index.html">here</a> if you would like to go back to
-            my
-            homepage.
-
+            </div>
+            <p>&copy; 2024 Octavio Pérez Kempner. All rights reserved.</p>
+            <p>Click <a href="/index.html">here</a> if you would like to go back
+                to my homepage.</p>
         </section>
 
         <footer>
-            <!-- <p class="remark">Hosted on <a
-            href="https://github.com/octaviopk9/octaviopk9.github.io">GitHub
-            Pages</a>.</p> -->
-            <p class="remark">Theme inspired by <a
-                    href="https://danielslamanig.info/">slamanig</a>, <a
-                    href="https://derlerd.github.io/">derlerd</a>, and <a
-                    href="https://tlepoint.github.io/">tlepoint</a>.</p>
+            <p class="remark">Theme inspired by
+                <a href="https://danielslamanig.info/">slamanig</a>,
+                <a href="https://derlerd.github.io/">derlerd</a>,
+                and <a href="https://tlepoint.github.io/">tlepoint</a>.
+            </p>
         </footer>
-
-
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.1/dist/simple-lightbox.min.js"></script>
+    <script>
+        new SimpleLightbox('.gallery a', {
+            captions: true,
+            captionsData: 'title',
+            captionDelay: 200
+        });
+    </script>
 </body>
 
 </html>
