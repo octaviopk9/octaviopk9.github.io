@@ -4,3 +4,5 @@ _site/*
 publications/.DS_Store
 images/.DS_Store
 _site/images
+.DS_Store
+_site/
