@@ -348,3 +348,35 @@ screen and (max-width: 480px) {
   filter: grayscale(50%);
   */
 }
+/* Top navigation, adapted from David Derler's current site structure. */
+.linkbar {
+  position: fixed;
+  top: 0;
+  width: 605px;
+  height: 60px;
+  margin: 0;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+}
+
+.linkbar li {
+  display: inline;
+  padding-left: 15px;
+}
+
+@media print, screen and (max-width: 960px) {
+  .linkbar {
+    position: sticky;
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+  }
+}

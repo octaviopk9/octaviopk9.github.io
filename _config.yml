@@ -20,10 +20,12 @@ scholar: F8zSuhoAAAAJ
 keybase: octaviopk
 
 # Build settings
+url: "https://octavio.pk"
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-sitemap
 collections:
   - preprints
   - proc

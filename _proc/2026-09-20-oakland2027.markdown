@@ -1,0 +1,13 @@
+---
+layout: post
+year: 2027
+title: "Nowhere Man: Device Binding for Post-Quantum Anonymous Credentials"
+authors: Joint work with Calvin Abou Haidar, Marcel Tiepelt and Ryo Kikuchi
+venue: "To appear in the IEEE Symposium on Security & Privacy, May 2027"
+pdf: 
+web: https://sp2027.ieee-security.org/
+bib: 
+github: 
+talk: 
+pub: 
+---
